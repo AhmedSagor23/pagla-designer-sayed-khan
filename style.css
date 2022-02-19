@@ -1,0 +1,521 @@
+ *{ 
+     box-sizing: border-box;
+ }
+ body{ 
+     margin: 0;
+ }
+ .nav-logo img{ 
+     border-radius: 50px;
+ }
+ h1{ 
+     font-size: 2.5rem; 
+     text-align: center;
+     text-transform: capitalize;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ h2{ 
+    font-size: 2.5rem; 
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+ }
+ a{ 
+     font-size: 1.3rem; 
+     text-decoration: none;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+
+ }
+ p{ 
+     font-size: 1.2rem; 
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+ }
+ .commondotted-hr{ 
+     border: dotted 6px white;
+     border-bottom: none; 
+     width: 70px;
+     
+ }
+ [class*="col-"]{
+      float: left;
+      padding: 10px;
+
+ }
+ /* for mobile*/
+ [class*="col-"]{
+width: 100%;
+}
+
+
+
+ .navbar{ 
+background-color: rgba(132, 75, 173, 0.26);
+padding: 0% 7%;
+text-align: center;
+
+ }
+ .navbar h1{ 
+     color: rgb(0, 0, 0); 
+     margin: 0;
+     padding-top:5px ;
+ }
+ .nav-menu{ 
+     display: flex; 
+     flex-direction:column;
+     text-transform: capitalize;
+   
+ }
+ .nav-menu a{ 
+    
+     margin:10px; 
+     border-radius: 5px;
+     padding: 10px;
+ }
+ .nav-menu a:hover{ 
+     background-color: rgba(0, 0, 0, 0.651);
+ }
+ .navbar::after{ 
+    clear: both;
+    display: table; 
+    content: '';
+}
+
+/* profile start here*/
+.profile{ 
+padding: 130px 10px; 
+position: relative; 
+text-align: center;
+background-image: url(flower.jpg);
+background-repeat: no-repeat; 
+background-attachment:;
+background-size: cover;
+ 
+ 
+
+}
+.top-icon{ 
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    transition: transform 1s;
+    opacity: .5;
+
+}
+.profile .top-icon:hover{ 
+   transform: rotate(360deg);
+   opacity:1;
+}
+.profile .data h1{ 
+ color: rgb(255, 255, 255);
+}
+.profile .data p{ 
+   color: rgb(255, 255, 255); 
+   margin:  0 auto 20px auto;
+    width: 90%;
+    font-size: 17px;
+    text-align: center;
+    opacity: .8;
+    letter-spacing:.8px;
+    line-height:27px;
+}
+
+.bottom-icon{ 
+    position: absolute;
+    left: 40px;
+    opacity: 1; 
+    bottom: 40px;
+    transition: transform 1s;
+
+}
+.profile .bottom-icon:hover{ 
+    transform: rotate(360deg);
+    opacity:.5;
+ }
+
+ .button-sec{ 
+     text-align: center;
+    
+  
+ }
+ .button-sec button{ 
+     width: 200px;
+     padding: 20px;
+     margin: 10px; 
+     border-radius: 5px; 
+     background-color: indigo;
+     color: white;
+     font-size: large;
+     text-transform:  capitalize;
+     transition: transform 1s;
+     font-family: cursive;
+ } 
+ .button-sec button:hover{ 
+     background-color: black; 
+     
+     
+ }
+ .profile::after{ 
+    clear: both;
+    display: table; 
+    content: '';
+}
+
+
+ /*profile end */
+
+
+ /* about start*/
+ .aboutme{ 
+     background-color: rgba(56, 189, 189, 0.459); 
+     padding: 1% 7%;
+     color: rgb(0, 0, 0);
+     text-align: center; 
+     font-family: ;
+
+ }
+ .aboutme-image img{ 
+    border: 5px solid white; 
+    width: 110px; 
+    height: 110px;
+    border-radius: 50%;
+
+
+ }
+ .aboutme-image img:hover{ 
+     opacity:.5;
+ }
+ .aboutme p{ 
+     text-align: center;
+     text-transform: capitalize;
+ }
+ .aboutme a{ 
+     font-size: 1.2rem;
+     color: black;
+ }
+ .cvbutton{ 
+    background-color:indigo;
+    color: white;
+    border: none; 
+    padding: 15px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    text-align: center; 
+    margin: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+ .aboutme::after{ 
+     clear: both; 
+     display: table; 
+     content: '';
+ }
+
+
+
+ /* aboutme end here*/
+
+ /* p p-exprience*/
+ .p-exprience-head{ 
+     background-color: rgba(165, 42, 42, 0.432);
+     padding-top: 20px;
+ }
+ 
+
+ .p-exprience{ 
+     padding: 1% 4%;
+     
+ }
+
+
+.card {
+    background-color: cornflowerblue;
+    border-radius: 5px; 
+    padding: 10px;
+    transition:all .3s;
+    height: 580px;
+}
+.card:hover{ 
+    box-shadow: 0 4px 8px 5px rgba(101, 109, 100, 0.733);
+}
+
+.card-icon{ 
+    text-align: center;
+    margin-top: 20px;
+}
+.card-title{ 
+    background-color: darkgrey;
+    
+    color: white;
+    text-align: center; 
+   
+     
+
+}
+.card-desc{ 
+    text-transform: capitalize; 
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card-desc ol li{ 
+    margin: 5px 0px;
+}
+
+
+
+/* skill content*/
+.skillcontainer{ 
+    padding-right:45px ;
+}
+.skillcontainer li{ 
+    list-style: none;
+    font-weight: bolder; 
+    margin: 16px 10px;
+    position: relative; 
+    font-size: 1.3rem;
+
+
+}
+.skillcontainer li::before{ 
+    content: '';
+    position: absolute; 
+    background-color: rgb(0, 0, 0);
+    top: calc(100% + 5px );
+    left: 0;
+    width: 100%; 
+    height: 5px;
+    border-radius: 1000px;
+
+
+}
+    
+.skillcontainer li::after{ 
+    content: '';
+    position: absolute; 
+    background-color: rgb(255, 255, 255);
+    top: calc(100% + 5px );
+    left: 0;
+    width: 0%;
+    height: 5px;
+    border-radius: 1000px;
+
+
+    animation-duration: 3s; 
+   animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 3;
+
+
+}
+li.html::after{ 
+ animation-name: HTML;
+}
+@keyframes HTML {
+ 
+    to{ 
+        width:90%;
+       
+    }
+}
+
+
+li.css::after{ 
+    animation-name: css;
+   }
+   @keyframes css {
+    
+       to{ 
+           width:80%;
+          
+       }
+   }
+   
+
+   li.bootstrap::after{ 
+    animation-name: bootstrap;
+   }
+   @keyframes bootstrap {
+    
+       to{ 
+           width:90%;
+          
+       }
+   }
+   
+li.javascript::after{ 
+    animation-name: javascript;
+   }
+   @keyframes javascript {
+    
+       to{ 
+           width:50%;
+          
+       }
+   }
+   
+   li.jquery::after{ 
+    animation-name: jquery;
+   }
+   @keyframes jquery {
+    
+       to{ 
+           width:65%;
+          
+       }
+   }
+
+   li.wordpress::after{ 
+    animation-name:wordpress;
+   }
+   @keyframes wordpress {
+    
+       to{ 
+           width:10%;
+          
+       }
+   }
+
+
+
+
+
+
+
+.p-exprience-head ::after{
+    clear:both; 
+    display: table; 
+    content: '';   
+}
+
+   /* skill animation end here*/
+
+
+   /* achivement-contact start here*/
+   .achivement-contact{ 
+       padding: 1% 7%; 
+       background-color: rgba(7, 4, 4, 0.466);
+   }
+   .achivement{ 
+       text-align: center;
+   }
+
+
+   .contact{ 
+     
+    text-align: center;
+   }
+   .contact input,textarea{ 
+       width: 100%;
+       text-align: center;
+       font-size: 1rem;
+       border: none; 
+       border-radius: 5px; 
+       resize: none;
+       padding: 10px;
+       text-transform: capitalize; 
+
+   }
+   .contact textarea:hover{ 
+       background-color: black; 
+       color: white;
+   }
+   .contact input:hover{ 
+    background-color: black; 
+    color: white;
+}
+   .contact button{ 
+       border: none; 
+       border-radius: 5px; 
+       color: white; 
+       cursor: pointer ;
+       background-color: indigo; 
+       width: 100px; 
+       padding: 15px;
+       margin: 10px; 
+       font-size: large; 
+       text-transform: uppercase;
+
+
+
+   }
+   .contact button:hover{ 
+      background-color: rgb(165, 36, 36); 
+       color: black;
+   }
+
+
+
+   .media-btn .btn{ 
+border: none;
+border-radius: 25px;
+font-size: 25px;
+padding: 5px; 
+margin: 5px; 
+width: 40px;
+height: 40px;
+margin-top: 20px;
+
+
+   }
+   .media{ 
+       text-align: center;
+
+   }
+   .media-btn .btn:hover{
+        background-color: gray;
+   }
+   .achivement-contact::after{
+    clear:both; 
+    display: table; 
+    content: '';   
+}
+
+/*footer start here */
+
+  .footer{ 
+      padding: 1% 7%;
+      text-align: center; 
+        background-color: black; 
+        color: white;
+
+
+  } 
+  .fmenu{ 
+      margin-top: 15px; 
+  
+
+
+  }
+  .fmenu a{ 
+      text-decoration: none; 
+      font-size: 0.9rem; 
+      text-transform: capitalize;
+      margin: 20px 0;
+      display: block;
+  }
+  .fmenu a:hover{ 
+      color: white;
+
+  }
+  span{ 
+      text-transform: capitalize; 
+      color: indigo;
+
+  }
+  span:hover{ 
+      color: white;
+  }
+
+
+  .footer::after{
+    clear:both; 
+    display: table; 
+    content: '';   
+}
+
+
+  

@@ -1,0 +1,117 @@
+    /*for desktop*/
+
+
+        .col-lg-1{width: 8.33% ;}
+        .col-lg-2{width: 16.66% ;}
+        .col-lg-3{width:  25% ;}
+        .col-lg-4{width:33.33%;}
+        .collg-5{width: 41.66% ;}
+        .col-lg-6{width: 50%  ;}
+        .col-lg-7{width: 58.33% ;}
+        .col-lg-8{width: 66.66%;}
+        .col-lg-9{width: 75% ;}
+        .col-lg-10{width: 83.33% ;}
+        .col-lg-11{width: 91.66%;}
+        .col-lg-12{width: 100% ;}
+
+
+
+    .nav-logo{ 
+        text-align: left;
+    }
+    .nav-heading h1{ 
+        text-align: right;
+    }
+
+    .nav-menu{ 
+        flex-direction: row; 
+        justify-content: flex-end;
+    }
+    .nav-menu a{ 
+        padding: 10px 10px;
+        transition: all 1s;
+         
+         
+    }
+    .nav-menu a:hover{ 
+        background:none;
+        transform: scale(1.2);
+
+    }
+
+
+    /* profile start*/
+    .profile{ 
+       
+        position: relative; 
+        text-align: center;
+        background-image: url(flower.jpg);
+        background-repeat: no-repeat; 
+        background-attachment:fixed;
+        background-size: cover;
+         
+         
+        
+        }
+        
+        .profile .data h1{ 
+            color: rgb(233, 2, 2);
+           }
+        .button-sec{ 
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+        /* about me start*/
+        .aboutme-image img{ 
+            margin-top: 150px;
+            height: 250px; 
+            width:250px;
+        }
+        .aboutme p{ 
+            text-align: left; 
+            text-transform: capitalize;
+
+        }
+
+         /* aboutme end here*/
+
+
+         /*    .achivement strt*/ 
+         .achivement{ 
+            padding-right: 50px;
+        }
+
+        .contact button{ 
+            width: 120px;
+        }
+
+        .media{ 
+            position: relative; 
+            
+
+        }
+        .media-btn{ 
+            position: absolute; 
+            padding: 100px;
+             
+            
+            
+          
+          
+          
+           
+
+        }
+
+        .copyright{ 
+            margin-top: 10px;
+        }
+
+        .fmenu a{ 
+            display: inline;
+            margin: 0 30px;
+           
+        }
